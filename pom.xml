@@ -60,17 +60,17 @@
     </build>
 
     <dependencies>
-        <!--Java语言操作tomcat -->
+        <!--tomcat -->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
-            <version>8.5.16</version>
+            <version>8.5.40</version>
         </dependency>
         <!-- tomcat对jsp支持 -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jasper</artifactId>
-            <version>8.5.16</version>
+            <version>8.5.40</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/cglib/cglib -->
         <dependency>
@@ -184,7 +184,7 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
-            <version>1.3.1</version>
+            <version>1.3.3</version>
         </dependency>
 
         <!-- 加载jackson包 -->
